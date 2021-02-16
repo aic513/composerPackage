@@ -12,11 +12,12 @@
 	},
 	"require-dev": {
 	},
-    "autoload": {
-        "psr-4": {
-            "Otus\\Hello\\": "src/"
-        }
-    },
+	"autoload": {
+		"psr-4": {
+			"Otus\\Hello\\": "src/"
+		}
+	},
+	"license": "MIT",
 	"repositories": [
 		{
 			"type": "package",
@@ -29,5 +30,6 @@
 					"reference": "dMorozov/hw1-3"
 				}
 			}
-		}]
+		}
+	]
 }
