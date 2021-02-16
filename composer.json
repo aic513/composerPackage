@@ -1,0 +1,33 @@
+{
+	"name": "den/otus",
+	"authors": [
+		{
+			"name": "aic513",
+			"email": "aic513@mail.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.1.0"
+	},
+	"require-dev": {
+	},
+    "autoload": {
+        "psr-4": {
+            "Otus\\Hello\\": "src/"
+        }
+    },
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "den/otus",
+				"version": "1.0",
+				"source": {
+					"url": "https://github.com/otusteamedu/PHP",
+					"type": "git",
+					"reference": "dMorozov/hw1-3"
+				}
+			}
+		}]
+}
